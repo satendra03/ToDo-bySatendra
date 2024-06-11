@@ -80,7 +80,7 @@ function Card({ refrence, todo }) {
           <p className=" capitalize font-semibold overflow-hidden line-clamp-2 opacity-90">{todo.title}</p>
         </div>
         <div className="text w-full overflow-auto text-ellipsis h-[70%] tablet:h-[80%] mt-2 desktop:mt-5">
-          <p className="todoText leading-[5vw] Lmobile:leading-[4vw] tablet:leading-[3vw] laptop:leading-6 text-[4vw] Lmobile:text-[3vw] tablet:text-[2vw] laptop:text-[1.3vw] tablet:pb-3">
+          <p className="todoText pointer-events-none leading-[5vw] Lmobile:leading-[4vw] tablet:leading-[3vw] laptop:leading-6 text-[4vw] Lmobile:text-[3vw] tablet:text-[2vw] laptop:text-[1.3vw] tablet:pb-3">
             {todo.desc}
           </p>
         </div>
