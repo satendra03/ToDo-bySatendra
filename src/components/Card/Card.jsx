@@ -73,11 +73,11 @@ function Card({ refrence, todo }) {
           todo.completed ? ` opacity-30 line-through` : ""
         } z-[5] cursor-grab overflow-hidden p-3 relative rounded-[20px] bg-zinc-900 w-[45vw] tablet:w-[25vw] laptop:w-[17vw] h-[33vh] tablet:h-[35vh] laptop:h-[40vh]`}
       >
-        <div className="icon scale-90 tablet:scale-125 flex items-center w-fit gap-[3vw] tablet:ml-[1vw]">
+        <div className="icon scale-90 tablet:scale-125 flex items-center w-fit  gap-[3vw] tablet:gap-[1vw] tablet:px-4">
           <div className=" opacity-90">
             <FiFileText />
           </div>
-          <p className=" capitalize font-semibold opacity-90">{todo.title}</p>
+          <p className=" capitalize font-semibold overflow-hidden line-clamp-2 opacity-90">{todo.title}</p>
         </div>
         <div className="text w-full overflow-auto text-ellipsis h-[70%] tablet:h-[80%] mt-2 desktop:mt-5">
           <p className="todoText leading-[5vw] Lmobile:leading-[4vw] tablet:leading-[3vw] laptop:leading-6 text-[4vw] Lmobile:text-[3vw] tablet:text-[2vw] laptop:text-[1.3vw] tablet:pb-3">

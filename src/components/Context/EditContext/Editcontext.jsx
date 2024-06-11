@@ -8,7 +8,7 @@ export const EditContextProvider = (props) => {
 
   return (
     <EditContext.Provider
-      value={{ edit, setEdit, toDoToEdit, setTodoToEdit, setTodoToEdit }}
+      value={{ edit, setEdit, toDoToEdit, setTodoToEdit }}
     >
       {props.children}
     </EditContext.Provider>
